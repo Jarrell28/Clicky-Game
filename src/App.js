@@ -79,8 +79,10 @@ class App extends Component {
   handleChoice = selection => {
     if (this.state.selected.includes(selection)) {
       this.setState({ selected: [], score: 0, message: "Selected Wrong! Play Again!" })
+    } else if (this.state.score === 12) {
+      this.setState({ selected: [], score: 0, message: "You Won! Play Again!" });
     } else {
-      this.setState({ selected: [...this.state.selected, selection], score: this.state.score + 1 })
+      this.setState({ selected: [...this.state.selected, selection], score: this.state.score + 1, message: "" })
     }
   }
 
