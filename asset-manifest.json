@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Clicky-Game/static/css/main.b613154f.chunk.css",
+    "main.js": "/Clicky-Game/static/js/main.56f5aa7e.chunk.js",
+    "main.js.map": "/Clicky-Game/static/js/main.56f5aa7e.chunk.js.map",
+    "runtime-main.js": "/Clicky-Game/static/js/runtime-main.e5d1295f.js",
+    "runtime-main.js.map": "/Clicky-Game/static/js/runtime-main.e5d1295f.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/Clicky-Game/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.85fce268.chunk.js": "/Clicky-Game/static/js/2.85fce268.chunk.js",
+    "static/js/2.85fce268.chunk.js.map": "/Clicky-Game/static/js/2.85fce268.chunk.js.map",
+    "index.html": "/Clicky-Game/index.html",
+    "precache-manifest.8c9430a49ca3cdc49c4c866cb1e17a47.js": "/Clicky-Game/precache-manifest.8c9430a49ca3cdc49c4c866cb1e17a47.js",
+    "service-worker.js": "/Clicky-Game/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/Clicky-Game/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.b613154f.chunk.css.map": "/Clicky-Game/static/css/main.b613154f.chunk.css.map",
+    "static/js/2.85fce268.chunk.js.LICENSE.txt": "/Clicky-Game/static/js/2.85fce268.chunk.js.LICENSE.txt",
+    "static/media/barbara.png": "/Clicky-Game/static/media/barbara.9774a665.png",
+    "static/media/brian.jpg": "/Clicky-Game/static/media/brian.b707c96d.jpg",
+    "static/media/chicken.png": "/Clicky-Game/static/media/chicken.71d54891.png",
+    "static/media/cleveland.jpg": "/Clicky-Game/static/media/cleveland.b814a6bf.jpg",
+    "static/media/joe.png": "/Clicky-Game/static/media/joe.a153f0b3.png",
+    "static/media/lois.jpg": "/Clicky-Game/static/media/lois.5f5facfe.jpg",
+    "static/media/meg.png": "/Clicky-Game/static/media/meg.613d1100.png",
+    "static/media/peter.png": "/Clicky-Game/static/media/peter.70e0e788.png",
+    "static/media/quagmire.png": "/Clicky-Game/static/media/quagmire.0982c584.png",
+    "static/media/rupert.png": "/Clicky-Game/static/media/rupert.0af02d67.png",
+    "static/media/stewie.png": "/Clicky-Game/static/media/stewie.6dd194bf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5d1295f.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.85fce268.chunk.js",
+    "static/css/main.b613154f.chunk.css",
+    "static/js/main.56f5aa7e.chunk.js"
+  ]
+}
