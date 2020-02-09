@@ -8,11 +8,11 @@ import brian from "./images/brian.jpg";
 import cleveland from "./images/cleveland.jpg";
 import joe from "./images/joe.png";
 import lois from "./images/lois.jpg";
-import carter from "./images/carter.jpg";
+import chicken from "./images/chicken.png";
 import quagmire from "./images/quagmire.png";
 import rupert from "./images/rupert.png";
 import stewie from "./images/stewie.png";
-import peter from "./images/peter.jpg";
+import peter from "./images/peter.png";
 import meg from "./images/meg.png";
 
 
@@ -39,8 +39,8 @@ class App extends Component {
           image: quagmire
         },
         {
-          name: "carter",
-          image: carter
+          name: "chicken",
+          image: chicken
         },
         {
           name: "lois",
@@ -72,13 +72,20 @@ class App extends Component {
         }
       ],
       score: 0,
+      topScore: 0,
       message: ""
     }
   }
 
   handleChoice = selection => {
     if (this.state.selected.includes(selection)) {
-      this.setState({ selected: [], score: 0, message: "Selected Wrong! Play Again!" })
+
+      if (this.state.score > this.state.topScore) {
+        this.setState({ selected: [], score: 0, topScore: this.state.score, message: `Selected Wrong! Your Score was ${this.state.score}` })
+      } else {
+        this.setState({ selected: [], score: 0, message: `Selected Wrong! Your Score was ${this.state.score}` })
+
+      }
     } else if (this.state.score === 12) {
       this.setState({ selected: [], score: 0, message: "You Won! Play Again!" });
     } else {
@@ -100,8 +107,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <MainNavbar score={this.state.score} />
-        {this.state.message ? <h1 className="text-center">{this.state.message}</h1> : ""}
+        <MainNavbar score={this.state.score} topScore={this.state.topScore} message={this.state.message} />
         <CharacterContainer characters={this.shuffle(this.state.characters)} handleChoice={this.handleChoice} />
       </div>
     );

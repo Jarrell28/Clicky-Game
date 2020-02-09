@@ -15,7 +15,7 @@ const CharacterContainer = props => {
 
 
     return (
-        <Container>
+        <Container className="mt-5">
             <div className="characterContainer">
                 {renderCharacters}
             </div>
